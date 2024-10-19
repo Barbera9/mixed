@@ -160,7 +160,7 @@
         </mxCell>
         <mxCell id="6oTfmbWfJ7Sm30HUCNoA-83" value="&lt;div&gt;no&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6oTfmbWfJ7Sm30HUCNoA-82" vertex="1" connectable="0">
           <mxGeometry x="-0.9144" y="3" relative="1" as="geometry">
-            <mxPoint x="12" as="offset" />
+            <mxPoint x="12" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pDNAQS96Y4eRlYrxa5AR-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="6oTfmbWfJ7Sm30HUCNoA-47" target="6oTfmbWfJ7Sm30HUCNoA-18">
