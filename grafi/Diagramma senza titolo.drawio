@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.0">
   <diagram name="Pagina-1" id="WEDdbitrVK0wtf-hzy_Y">
-    <mxGraphModel dx="683" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6oTfmbWfJ7Sm30HUCNoA-4" value="Background study" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="339" y="50" width="120" height="40" as="geometry" />
+          <mxGeometry x="339" y="70" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6oTfmbWfJ7Sm30HUCNoA-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.727;exitY=0.507;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="6oTfmbWfJ7Sm30HUCNoA-6" target="6oTfmbWfJ7Sm30HUCNoA-10" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -32,7 +32,7 @@
         <mxCell id="6oTfmbWfJ7Sm30HUCNoA-6" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="299" y="100" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="6oTfmbWfJ7Sm30HUCNoA-8" value="intervista riguardo le aspettative sulle funzionalità dell&#39; applicazione" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+        <mxCell id="6oTfmbWfJ7Sm30HUCNoA-8" value="intervista con il porprietario del progetto" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="240" y="190" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6oTfmbWfJ7Sm30HUCNoA-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.25;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6oTfmbWfJ7Sm30HUCNoA-8" target="6oTfmbWfJ7Sm30HUCNoA-16" edge="1">
@@ -40,7 +40,7 @@
             <mxPoint x="300" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6oTfmbWfJ7Sm30HUCNoA-10" value="intervista riguardo l&#39;utilizzo dell&#39; applicazione" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+        <mxCell id="6oTfmbWfJ7Sm30HUCNoA-10" value="brainstroming iniziale" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="440" y="190" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6oTfmbWfJ7Sm30HUCNoA-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.75;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6oTfmbWfJ7Sm30HUCNoA-10" target="6oTfmbWfJ7Sm30HUCNoA-16" edge="1">
