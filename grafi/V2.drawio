@@ -176,6 +176,11 @@
             <mxPoint x="400" y="1315" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="KI7EJrQLjo3R3d8mQip6-49" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KI7EJrQLjo3R3d8mQip6-47">
+          <mxGeometry x="-0.6335" y="-4" relative="1" as="geometry">
+            <mxPoint x="14" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KI7EJrQLjo3R3d8mQip6-40" value="Sono stati Riscontrati problemi Rilevanti?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="335" y="1100" width="130" height="90" as="geometry" />
         </mxCell>
