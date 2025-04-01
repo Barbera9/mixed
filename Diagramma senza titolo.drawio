@@ -1,9 +1,135 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0" version="24.8.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.2.3">
   <diagram name="Pagina-1" id="E2wJxCRYpH7yR_DDp9Np">
-    <mxGraphModel>
+    <mxGraphModel dx="1044" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zWeLqjhAXcyuiECofzkr-1" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;1. public class IndexOf {&lt;br/&gt;&lt;br/&gt;2.     public static int IndexOf(int[] a, int key) {&lt;br/&gt;3.         if (a.length == 0)&lt;br/&gt;4.             return -1;&lt;br/&gt;&lt;br/&gt;5.         if (a.length == 1 &amp;amp;&amp;amp; a[0] == key)&lt;br/&gt;6.             return 0;&lt;br/&gt;&lt;br/&gt;7.         int lo = 0;&lt;br/&gt;&lt;br/&gt;8.         int hi = a.length - 1;&lt;br/&gt;&lt;br/&gt;9.         while (lo &amp;lt;= hi) {&lt;br/&gt;10.            int mid = lo + (hi - lo) / 2;&lt;br/&gt;&lt;br/&gt;11.            if (key &amp;gt; a[mid])&lt;br/&gt;12.                lo = mid + 1;&lt;br/&gt;13.            else if (key &amp;lt; a[mid])&lt;br/&gt;14.                hi = mid - 1;&lt;br/&gt;15.            else return mid;&lt;br/&gt;           }&lt;br/&gt;16.        return -1;&lt;br/&gt;       }&lt;br/&gt;&lt;br/&gt;   }&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" width="350" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-2" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code class=&quot;language-java&quot; id=&quot;yui_3_18_1_1_1743517991682_99&quot;&gt;2.   public static int IndexOf(int[] a, int key) {&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-3" target="zWeLqjhAXcyuiECofzkr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-3" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;3.if (a.length == 0)&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="505" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-4" target="zWeLqjhAXcyuiECofzkr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-4" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;5.if (a.length == 1 &amp;amp;&amp;amp; a[0] == key)&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="505" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-5" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;4. return -1;&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-2" target="zWeLqjhAXcyuiECofzkr-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-2" target="zWeLqjhAXcyuiECofzkr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-9" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;6. return 0;&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-11" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;7.  int lo = 0;&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-12" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;8. int hi = a.length - 1;&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="600" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.274;exitY=0.925;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-2" target="zWeLqjhAXcyuiECofzkr-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-15" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;16. return -1;&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-2" target="zWeLqjhAXcyuiECofzkr-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-17" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;9.  while (lo &amp;lt;= hi) {&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="740" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-2" target="zWeLqjhAXcyuiECofzkr-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="550" as="sourcePoint" />
+            <mxPoint x="440" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-19" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;10. int mid = lo + (hi - lo) / 2;&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="860" width="265" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-17" target="zWeLqjhAXcyuiECofzkr-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-21" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;11.if (key &amp;gt; a[mid])&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="860" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-22" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;13. else if (key &amp;lt; a[mid])&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="860" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-23" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;15. else return mid;&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="860" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-24" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;12.lo = mid + 1;&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="980" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-17" target="zWeLqjhAXcyuiECofzkr-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="760" as="sourcePoint" />
+            <mxPoint x="440" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-17" target="zWeLqjhAXcyuiECofzkr-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="760" as="sourcePoint" />
+            <mxPoint x="440" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-17" target="zWeLqjhAXcyuiECofzkr-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="760" as="sourcePoint" />
+            <mxPoint x="440" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-21" target="zWeLqjhAXcyuiECofzkr-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="880" as="sourcePoint" />
+            <mxPoint x="440" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-29" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;14. hi = mid - 1;&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="980" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-2" target="zWeLqjhAXcyuiECofzkr-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zWeLqjhAXcyuiECofzkr-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWeLqjhAXcyuiECofzkr-22" target="zWeLqjhAXcyuiECofzkr-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="880" as="sourcePoint" />
+            <mxPoint x="440" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
