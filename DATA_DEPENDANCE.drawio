@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.2.3">
   <diagram name="Pagina-1" id="XMuqWZLkqimTZiR3ArTc">
-    <mxGraphModel>
+    <mxGraphModel dx="1044" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eCMLK8YqS8jhUNkkTPj8-1" value="&lt;pre id=&quot;yui_3_18_1_1_1743517991682_94&quot;&gt;&lt;code id=&quot;yui_3_18_1_1_1743517991682_99&quot; class=&quot;language-java&quot;&gt;1. public class IndexOf {&lt;br/&gt;&lt;br/&gt;2.     public static int IndexOf(int[] a, int key) {&lt;br/&gt;3.         if (a.length == 0)&lt;br/&gt;4.             return -1;&lt;br/&gt;&lt;br/&gt;5.         if (a.length == 1 &amp;amp;&amp;amp; a[0] == key)&lt;br/&gt;6.             return 0;&lt;br/&gt;&lt;br/&gt;7.         int lo = 0;&lt;br/&gt;&lt;br/&gt;8.         int hi = a.length - 1;&lt;br/&gt;&lt;br/&gt;9.         while (lo &amp;lt;= hi) {&lt;br/&gt;10.            int mid = lo + (hi - lo) / 2;&lt;br/&gt;&lt;br/&gt;11.            if (key &amp;gt; a[mid])&lt;br/&gt;12.                lo = mid + 1;&lt;br/&gt;13.            else if (key &amp;lt; a[mid])&lt;br/&gt;14.                hi = mid - 1;&lt;br/&gt;15.            else return mid;&lt;br/&gt;           }&lt;br/&gt;16.        return -1;&lt;br/&gt;       }&lt;br/&gt;&lt;br/&gt;   }&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="360" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="eCMLK8YqS8jhUNkkTPj8-2" value="DATA DEPENDANCE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="270" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
