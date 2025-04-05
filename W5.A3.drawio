@@ -312,6 +312,12 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="yl5XS7yj3IDsIzwmvnov-72" value="&lt;pre id=&quot;yui_3_18_1_1_1743842538325_100&quot;&gt;&lt;code class=&quot;language-java&quot;&gt; count[(arr[i] / exp) % 10]++;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="867" y="780" width="213" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yl5XS7yj3IDsIzwmvnov-73" value="M" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="800" width="40" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
