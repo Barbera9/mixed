@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.9">
   <diagram name="Pagina-1" id="1iK9Y7x5RWMCIEHlre_7">
-    <mxGraphModel dx="1044" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1491" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,6 +150,112 @@
           <mxGeometry x="-0.5319" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-37" value="photo editing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="226" y="1320" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-40" target="YTVSwso-LdbCMW-Us0Bc-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-43" value="click on desired photo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YTVSwso-LdbCMW-Us0Bc-42">
+          <mxGeometry x="-0.24" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-40" value="0.photostream open" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="226" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-41" target="YTVSwso-LdbCMW-Us0Bc-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-48" value="click Edit button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YTVSwso-LdbCMW-Us0Bc-45">
+          <mxGeometry x="-0.2455" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-41" value="photo selected" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="226" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-44" target="YTVSwso-LdbCMW-Us0Bc-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-54" value="stop editing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YTVSwso-LdbCMW-Us0Bc-53">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-44" value="editing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="226" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-41" target="YTVSwso-LdbCMW-Us0Bc-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="292" y="1570" as="sourcePoint" />
+            <mxPoint x="342" y="1520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="372" y="1510" />
+              <mxPoint x="372" y="1590" />
+              <mxPoint x="286" y="1590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-49" value="select Edit with Photo Editor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YTVSwso-LdbCMW-Us0Bc-47">
+          <mxGeometry x="-0.3276" y="8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-50" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-44" target="YTVSwso-LdbCMW-Us0Bc-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="292" y="1570" as="sourcePoint" />
+            <mxPoint x="342" y="1520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="442" y="1710" />
+              <mxPoint x="492" y="1650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-51" value="edit by selecting from toolbar" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YTVSwso-LdbCMW-Us0Bc-50">
+          <mxGeometry x="0.4275" y="7" relative="1" as="geometry">
+            <mxPoint x="-5" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-52" value="editing finished" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="226" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-52" target="YTVSwso-LdbCMW-Us0Bc-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="292" y="1590" as="sourcePoint" />
+            <mxPoint x="432" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-57" value="click save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YTVSwso-LdbCMW-Us0Bc-55">
+          <mxGeometry x="-0.4211" y="3" relative="1" as="geometry">
+            <mxPoint x="14" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-56" target="YTVSwso-LdbCMW-Us0Bc-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-63" value="replace original image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YTVSwso-LdbCMW-Us0Bc-60">
+          <mxGeometry x="0.4143" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-56" target="YTVSwso-LdbCMW-Us0Bc-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-62" value="save new copy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YTVSwso-LdbCMW-Us0Bc-61">
+          <mxGeometry x="0.4103" y="6" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-56" value="decide saving options" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-58" value="new copy saved" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-59" value="old image replaced with new" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="502" y="1870" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
