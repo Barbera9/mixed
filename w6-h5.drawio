@@ -257,7 +257,7 @@
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-59" value="old image replaced with new" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="515" y="2930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YTVSwso-LdbCMW-Us0Bc-64" value="sharing items" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YTVSwso-LdbCMW-Us0Bc-64" value="saving an dsharing items" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="1270" width="690" height="720" as="geometry" />
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-65" value="sharing items" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
