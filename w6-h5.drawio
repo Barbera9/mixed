@@ -152,7 +152,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-37" value="photo editing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="226" y="1320" width="100" height="30" as="geometry" />
+          <mxGeometry x="239" y="2370" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-40" target="YTVSwso-LdbCMW-Us0Bc-41">
           <mxGeometry relative="1" as="geometry" />
@@ -163,7 +163,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-40" value="0.photostream open" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="1370" width="120" height="60" as="geometry" />
+          <mxGeometry x="239" y="2430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-41" target="YTVSwso-LdbCMW-Us0Bc-44">
           <mxGeometry relative="1" as="geometry" />
@@ -174,7 +174,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-41" value="photo selected" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="1480" width="120" height="60" as="geometry" />
+          <mxGeometry x="239" y="2540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-44" target="YTVSwso-LdbCMW-Us0Bc-52">
           <mxGeometry relative="1" as="geometry" />
@@ -185,16 +185,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-44" value="editing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="1630" width="120" height="60" as="geometry" />
+          <mxGeometry x="239" y="2690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-41" target="YTVSwso-LdbCMW-Us0Bc-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="292" y="1570" as="sourcePoint" />
-            <mxPoint x="342" y="1520" as="targetPoint" />
+            <mxPoint x="305" y="2630" as="sourcePoint" />
+            <mxPoint x="355" y="2580" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="372" y="1510" />
-              <mxPoint x="372" y="1590" />
-              <mxPoint x="286" y="1590" />
+              <mxPoint x="385" y="2570" />
+              <mxPoint x="385" y="2650" />
+              <mxPoint x="299" y="2650" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -205,11 +205,11 @@
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-50" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-44" target="YTVSwso-LdbCMW-Us0Bc-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="292" y="1570" as="sourcePoint" />
-            <mxPoint x="342" y="1520" as="targetPoint" />
+            <mxPoint x="305" y="2630" as="sourcePoint" />
+            <mxPoint x="355" y="2580" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="442" y="1710" />
-              <mxPoint x="492" y="1650" />
+              <mxPoint x="455" y="2770" />
+              <mxPoint x="505" y="2710" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -219,12 +219,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-52" value="editing finished" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="226" y="1750" width="120" height="60" as="geometry" />
+          <mxGeometry x="239" y="2810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YTVSwso-LdbCMW-Us0Bc-52" target="YTVSwso-LdbCMW-Us0Bc-56">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="292" y="1590" as="sourcePoint" />
-            <mxPoint x="432" y="1780" as="targetPoint" />
+            <mxPoint x="305" y="2650" as="sourcePoint" />
+            <mxPoint x="445" y="2840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-57" value="click save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YTVSwso-LdbCMW-Us0Bc-55">
@@ -249,19 +249,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-56" value="decide saving options" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="422" y="1750" width="120" height="60" as="geometry" />
+          <mxGeometry x="435" y="2810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-58" value="new copy saved" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="326" y="1870" width="120" height="60" as="geometry" />
+          <mxGeometry x="339" y="2930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-59" value="old image replaced with new" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="502" y="1870" width="120" height="60" as="geometry" />
+          <mxGeometry x="515" y="2930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-64" value="sharing items" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="940" width="690" height="200" as="geometry" />
+          <mxGeometry x="50" y="1270" width="690" height="720" as="geometry" />
         </mxCell>
         <mxCell id="YTVSwso-LdbCMW-Us0Bc-65" value="sharing items" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="830" width="180" height="30" as="geometry" />
+          <mxGeometry x="292" y="1210" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
